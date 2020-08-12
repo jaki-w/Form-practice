@@ -8,11 +8,17 @@
   <title>Letter Practice</title>
 </head>
 <body>
+  <form id="letterInput">
+    <label for="userName">Enter your name:</label>
+    <input id="letterInput" class="form-control" type="text">
+    <button class="btn btn-success" type="submit">Show me my letter!</button>
+  </form>
   <div class="container">
     <div class="letter">
-
+      <p>Dear <span id="userName"></span>,</p>
+  <p id="dynamicInput"></p>
+  <p>Best, Bunny</p>
     </div>
-
   </div>
 </body>
 </html>
